@@ -15,15 +15,20 @@ const Container = styled.div`
   min-width: 487px;
 
   &:hover {
-    background-color: #545454;
+    background-color: #E1E6ED;
+    /* border: .5px solid gray; */
+    box-shadow: 3px 3px 8px 2px gray;
+
     .icon {
-      fill: transparent;
+      fill: #545454;
       stroke: #545454;
-      background-color: #ccc;
+      background-color: whitesmoke;
+      /* border: 1px solid gray; */
+      box-shadow: 3px 3px 8px 2px gray;
     }
     .order-content {
       h3 {
-        color: #febc12;
+        color: #545454;
       }
     }
   }
