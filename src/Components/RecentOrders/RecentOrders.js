@@ -24,6 +24,9 @@ export default function RecentOrders() {
     <Container>
       <h2>Recent Orders</h2>
       <Order /> {/* Example of a displayed Order */}
+      <Order /> {/* Example of a displayed Order */}
+      <Order /> {/* Example of a displayed Order */}
+
     </Container>
   );
 }

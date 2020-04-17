@@ -13,22 +13,27 @@ const Container = styled.div`
   background-color: #fff;
   margin-bottom: 0.75rem;
   min-width: 487px;
-
+  
   &:hover {
-    background-color: #E1E6ED;
-    /* border: .5px solid gray; */
     box-shadow: 3px 3px 8px 2px gray;
-
+    background-color: #E8E8E8;
+    /* background-color: #fef1cf; */
+    /* color: #a8cdc9; */
+    
     .icon {
       fill: #545454;
       stroke: #545454;
       background-color: whitesmoke;
-      /* border: 1px solid gray; */
+      border: 1px solid gray;
       box-shadow: 3px 3px 8px 2px gray;
     }
     .order-content {
       h3 {
         color: #545454;
+      }
+      p {
+        color: #545454;
+        font-weight: 700;
       }
     }
   }
